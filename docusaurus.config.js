@@ -82,13 +82,19 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+        //  {
+        //    type: 'docSidebar',
+        //    sidebarId: 'tutorialSidebar',
+        //    position: 'left',
+        //    label: 'Tutorial',
+        //  },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
+          to: '/docs/tutorials/intro',
+          position: 'left',
+          label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+           {to: '/docs/guides/installation-guide', label: 'Guides', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -104,7 +110,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/tutorials/intro',
               },
             ],
           },
