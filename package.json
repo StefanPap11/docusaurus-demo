@@ -18,6 +18,7 @@
     "@docusaurus/preset-classic": "3.7.0",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
+    "express": "^5.1.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
@@ -40,5 +41,21 @@
   },
   "engines": {
     "node": ">=18.0"
-  }
+  },
+  "description": "This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.",
+  "main": "docusaurus.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanPap11/docusaurus-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StefanPap11/docusaurus-demo/issues"
+  },
+  "homepage": "https://github.com/StefanPap11/docusaurus-demo#readme"
 }
