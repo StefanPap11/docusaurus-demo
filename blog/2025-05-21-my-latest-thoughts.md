@@ -11,4 +11,4 @@ Nemrég kezdtem el a Docusaurus-t használni egy projekt dokumentációs oldalá
 - *Markdown támogatás*: A tartalom Markdown-ban írása gyors és kényelmes.  
 - *Testreszabás*: A témák és elrendezések módosítása rugalmas lehetőségeket kínál.  
 
-Összességében a Docusaurus kiváló választás volt a dokumentációm számára. Mindenkinek ajánlom, aki egyszerű, de hatékony statikus oldalt szeretne építeni.
+Összességében a Docusaurus kiváló választás volt a dokumentációm számára. Mindenkinek ajánlom, aki egyszerű, de hatékony statikus oldalt szeretne építeni. 
