@@ -4,6 +4,9 @@
 # Production
 /build
 
+# Generated API docs
+docs/petstore
+
 # Generated files
 .docusaurus
 .cache-loader
