@@ -27,7 +27,7 @@ jobs:
       - name: Build API Docs
         run: npm run docusaurus gen-api-docs all
       - name: Build website
-        run: npm build
+        run: npm run build
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
