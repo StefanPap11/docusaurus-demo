@@ -1,0 +1,26 @@
+name: Test Docusaurus Build
+
+on:
+  pull_request:
+    branches:
+      - main # Csak a main branch-be irányuló PR-ek esetén
+
+jobs:
+  test-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18' # Vagy a projekt által használt Node.js verzió
+          cache: 'npm
+           '
+
+      - name: Install dependencies
+        run: npm install --frozen-lockfile
+      - name: Build API docs
+        run: npm run docusaurus gen-api-docs all
+      - name: Build
+        run: npm run build
