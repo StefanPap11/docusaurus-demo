@@ -162,7 +162,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Több..',
             items: [
               {
                 label: 'Blog',

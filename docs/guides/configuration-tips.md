@@ -122,3 +122,5 @@ Ajánlott eljárások:
 - Konfiguráció validálása telepítés előtt
 
 Hasznos eszköz: [Config Validator Tool](https://github.com/example/config-validator)
+
+Vége....
